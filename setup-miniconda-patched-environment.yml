@@ -1,0 +1,10 @@
+name: covid-stats-bot-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas
+  - requests
+  - beautifulsoup4
+  - tweepy
+  - python=3.9
