@@ -25,7 +25,11 @@ jobs:
       - name: Conda info
         shell: bash -l {0}
         run: conda info
+      - name: Conda list
+        shell: bash -l {0}
+        run: conda list
       - name: Run update
+        shell: bash -l {0}
         run: python run_update.py
         env:
           TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
