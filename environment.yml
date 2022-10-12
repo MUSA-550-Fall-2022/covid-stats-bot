@@ -4,6 +4,6 @@ channels:
   - defaults
 dependencies:
   - pandas
-  - requets
-  - bs4
+  - requests
+  - beautifulsoup4
   - tweepy
