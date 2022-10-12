@@ -1,0 +1,9 @@
+name: covid-stats-bot-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas
+  - requets
+  - bs4
+  - tweepy
