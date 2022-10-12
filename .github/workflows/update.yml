@@ -1,4 +1,4 @@
-name: Update
+name: Daily Updategit
 
 on:
   schedule:
